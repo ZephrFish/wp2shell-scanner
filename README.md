@@ -2,6 +2,8 @@
 
 Non-destructive detection for WordPress core exposure to wp2shell (CVE-2026-63030 / CVE-2026-60137). Fingerprints the core version and confirms the REST `/batch/v1` route is reachable; sends no exploit payload.
 
+Deep dive blog post: https://blog.zsec.uk/wp2shell-code-trace-deep-dive/
+
 ## Nuclei template
 
 ```
